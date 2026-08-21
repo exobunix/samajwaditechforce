@@ -1,9 +1,6 @@
-requirements.txt
-bg_removal_service.py
-bg_removal_service/
-venv/
-*.py
-install_bg_service.sh
-start_bg_service.sh
-Dockerfile.bg-service
-docker-compose.yml
+api/
+admin/
+jdk17/
+jdk17.zip
+samajwadi_db_backup.zip
+__MACOSX/
