@@ -1,0 +1,82 @@
+import { Platform } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+/**
+ * Get the correct API URL based on the platform
+ * - Web: Uses the direct URL from env
+ * - Android Emulator: Converts localhost to 10.0.2.2
+ * - Android/iOS Physical Device: Uses network IP from env
+ */
+export const getApiUrl = (): string => {
+    // 1. If explicitly set in env, use it
+    if (process.env.EXPO_PUBLIC_API_URL) {
+        let baseUrl = process.env.EXPO_PUBLIC_API_URL;
+        if (!baseUrl.endsWith('/api')) baseUrl += '/api';
+        return baseUrl;
+    }
+
+    // 2. In Production (Builds), default to hosted URL
+    if (!__DEV__) {
+        return 'https://api.samajwaditechforce.com/api';
+    }
+
+    // 3. Development Fallback
+    let baseUrl = 'http://localhost:5001/api';
+
+    // For Android (Emulator or Physical Device)
+    if (Platform.OS === 'android' && baseUrl.includes('localhost')) {
+        // Use 10.0.2.2 for Emulator, but mostly we need local IP for Physical Device
+        // defaulting to the user's current local IP
+        baseUrl = baseUrl.replace('localhost', '192.168.1.38');
+    }
+
+    console.log(`[API] Using URL: ${baseUrl} (Platform: ${Platform.OS})`);
+    return baseUrl;
+};
+
+/**
+ * Get the Socket.IO server URL (without /api suffix)
+ */
+export const getSocketUrl = (): string => {
+    let socketUrl = process.env.EXPO_PUBLIC_API_URL?.replace('/api', '') || 'http://localhost:5001';
+
+    // For Android emulator
+    if (Platform.OS === 'android' && socketUrl.includes('localhost')) {
+        socketUrl = socketUrl.replace('localhost', '10.0.2.2');
+    }
+
+    console.log(`[Socket.IO] Using URL: ${socketUrl} (Platform: ${Platform.OS})`);
+    return socketUrl;
+};
+
+/**
+ * Make an API request with proper error handling
+ */
+export const apiRequest = async (endpoint: string, options: RequestInit = {}) => {
+    const apiUrl = getApiUrl();
+    const url = `${apiUrl}${endpoint.startsWith('/') ? endpoint : `/${endpoint}`}`;
+    const token = await AsyncStorage.getItem('adminToken');
+
+    try {
+        console.log(`[API Request] ${options.method || 'GET'} ${url}`);
+        const response = await fetch(url, {
+            ...options,
+            headers: {
+                'Content-Type': 'application/json',
+                ...options.headers,
+                ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+            },
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+            throw new Error(data.message || `HTTP ${response.status}`);
+        }
+
+        return data;
+    } catch (error: any) {
+        console.error(`[API Error] ${url}:`, error.message);
+        throw error;
+    }
+};

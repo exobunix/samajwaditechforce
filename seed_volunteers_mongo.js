@@ -4,7 +4,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 
 // Hardcoded URI from backend/.env
-const MONGO_URI = 'mongodb+srv://samajwaditech01:SaMahWadi6655@samajwaditechforce.85hdqaw.mongodb.net/test';
+const MONGO_URI = 'mongodb://adarshsachan7071_db_user:uFlWpq6NY7MHJTm9@ac-lqvblgl-shard-00-00.ksxxelf.mongodb.net:27017,ac-lqvblgl-shard-00-01.ksxxelf.mongodb.net:27017,ac-lqvblgl-shard-00-02.ksxxelf.mongodb.net:27017/test?ssl=true&replicaSet=atlas-de1ek8-shard-0&authSource=admin&retryWrites=true&w=majority';
 
 if (!MONGO_URI) {
     console.error('MONGO_URI not found');
@@ -34,7 +34,7 @@ const volunteerSchema = new mongoose.Schema({
 // Use 'volunteers' collection
 const Volunteer = mongoose.model('Volunteer', volunteerSchema, 'volunteers');
 
-const jsonPath = path.join(__dirname, 'app/(tabs)/समाजवादी टेक फोर्स से जुड़ें — बने समाजवाद की डिजिटल आवाज़! (Responses) (5).json');
+const jsonPath = path.join(__dirname, 'app/volunteers.json');
 
 async function seed() {
     try {

@@ -1,0 +1,28 @@
+[
+	{
+		"_id": {
+			"$oid": "69da8601aa6e9a8e17be9600"
+		},
+		"pageTitle": "Get in Touch",
+		"pageSubtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+		"address": "19, Vikramaditya Marg, Lucknow, Uttar Pradesh 226001",
+		"email": "contact@samajwaditechforce.com",
+		"phone": "",
+		"formTitle": "Send us a Message",
+		"nameLabel": "Full Name",
+		"emailLabel": "Email Address",
+		"messageLabel": "Message",
+		"submitButtonText": "Send Message",
+		"successMessage": "Your message has been sent!",
+		"officeHours": "Monday - Friday: 9:00 AM - 6:00 PM",
+		"additionalInfo": "",
+		"socialMedia": [],
+		"updatedAt": {
+			"$date": "2026-04-11T17:33:53.019Z"
+		},
+		"createdAt": {
+			"$date": "2026-04-11T17:33:53.019Z"
+		},
+		"__v": 0
+	}
+]

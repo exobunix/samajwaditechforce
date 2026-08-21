@@ -59,9 +59,7 @@ export default function DesktopNews() {
     }, []);
 
     useEffect(() => {
-        if (userInfo) {
-            fetchNews(1);
-        }
+        fetchNews(1);
     }, [userInfo]);
 
     // Update liked states and awarded points when news data changes

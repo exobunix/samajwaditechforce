@@ -439,24 +439,14 @@ export default function InteractiveLoginScreen({ navigation }: any) {
               </View>
             )}
 
-            {/* Google Login Button - Primary */}
+            {/* SignUp Button */}
             <TouchableOpacity
               style={styles.googleButton}
-              onPress={handleGoogleLogin}
+              onPress={() => router.push('/profile-setup')}
               activeOpacity={0.8}
-              disabled={loading}
             >
-              {loading ? (
-                <>
-                  <ActivityIndicator size="small" color={SP_RED} />
-                  <Text style={styles.googleButtonText}>Connecting...</Text>
-                </>
-              ) : (
-                <>
-                  <MaterialCommunityIcons name="gmail" size={28} color="#EA4335" />
-                  <Text style={styles.googleButtonText}>Continue with Gmail</Text>
-                </>
-              )}
+              <MaterialCommunityIcons name="account-plus" size={28} color={SP_RED} />
+              <Text style={styles.googleButtonText}>Register as Volunteer</Text>
             </TouchableOpacity>
 
             <Text style={styles.termsText}>

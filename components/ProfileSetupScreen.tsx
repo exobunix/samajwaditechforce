@@ -98,6 +98,7 @@ export default function ProfileSetupScreen({ navigation, route }: ProfileSetupPr
 
   const isValid =
     name.trim().length > 0 &&
+    email.trim().length > 0 &&
     phone.length === 10 &&
     gender.length > 0 &&
     dob.length === 10 &&
@@ -246,11 +247,14 @@ export default function ProfileSetupScreen({ navigation, route }: ProfileSetupPr
             maxLength={10}
           />
 
-          <Text style={styles.label}>Email (Optional)</Text>
+          <Text style={styles.label}>Email Address</Text>
           <TextInput
-            style={[styles.input, { backgroundColor: '#f0f0f0', color: '#666' }]}
+            style={styles.input}
             value={email}
-            editable={false}
+            onChangeText={setEmail}
+            placeholder="Enter email address"
+            keyboardType="email-address"
+            autoCapitalize="none"
           />
 
           <View style={{ marginTop: 8 }}>

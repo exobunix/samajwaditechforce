@@ -285,21 +285,7 @@ function MobileSignInScreen() {
             </Animated.View>
 
             <Animated.View style={[styles.cardGlass, !isDark && styles.cardGlassLight, { opacity: fadeAnim }]}>
-              {/* Google Login Button (Mobile) */}
-              <TouchableOpacity
-                style={styles.googleButton}
-                onPress={handleGoogleLogin}
-                activeOpacity={0.8}
-              >
-                <MaterialCommunityIcons name="google" size={20} color="#EA4335" />
-                <Text style={styles.googleButtonText}>Continue with Google</Text>
-              </TouchableOpacity>
 
-              <View style={styles.dividerContainer}>
-                <View style={styles.dividerLine} />
-                <Text style={styles.dividerText}>or email</Text>
-                <View style={styles.dividerLine} />
-              </View>
 
               <View style={styles.formGroup}>
                 <Text style={styles.label}>Email Address</Text>
@@ -640,19 +626,7 @@ function DesktopSignInScreen() {
                 Use your registered email and password.
               </Text>
 
-              <TouchableOpacity
-                style={styles.desktopGoogleButton}
-                onPress={handleGoogleLogin}
-              >
-                <MaterialCommunityIcons name="google" size={20} color="#EA4335" />
-                <Text style={styles.desktopGoogleText}>Continue with Google</Text>
-              </TouchableOpacity>
 
-              <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: 20 }}>
-                <View style={{ flex: 1, height: 1, backgroundColor: '#e5e7eb' }} />
-                <Text style={{ marginHorizontal: 10, color: '#9ca3af', fontSize: 13, fontWeight: '500' }}>OR EMAIL</Text>
-                <View style={{ flex: 1, height: 1, backgroundColor: '#e5e7eb' }} />
-              </View>
 
               <View style={styles.desktopSignFieldGroup}>
                 <Text style={styles.desktopSignFieldLabel}>Email address</Text>

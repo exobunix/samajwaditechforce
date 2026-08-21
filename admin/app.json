@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Samajwadi Admin",
+    "slug": "samajwadi-admin",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "admin",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E30512"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samajwaditechforce.admin2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#E30512"
+      },
+      "package": "com.samajwaditechforce.admin2",
+      "versionCode": 2,
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bffdafdc-ed1c-4d20-a19b-3d18b18d8b46"
+      }
+    },
+    "owner": "gaga4422"
+  }
+}

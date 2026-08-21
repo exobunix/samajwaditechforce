@@ -1,0 +1,200 @@
+[{
+	"_id": {
+		"$oid": "69d3e2dbe71f183abbce88cc"
+	},
+	"columns": [
+		{
+			"id": "about_col",
+			"title": "About Us",
+			"type": "text",
+			"content": "The official digital wing of Samajwadi Party, dedicated to spreading the message of development and social justice.",
+			"contact": {
+				"address": "",
+				"phone": "",
+				"email": ""
+			},
+			"social": {
+				"facebook": "",
+				"twitter": "",
+				"instagram": "",
+				"youtube": "",
+				"telegram": "",
+				"linkedin": "",
+				"whatsapp": "",
+				"website": ""
+			},
+			"_id": {
+				"$oid": "69d3e2dbe71f183abbce88cd"
+			},
+			"links": []
+		},
+		{
+			"id": "quick_links",
+			"title": "Quick Links",
+			"type": "links",
+			"content": "",
+			"links": [
+				{
+					"label": "About Us",
+					"path": "/about",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88cf"
+					}
+				},
+				{
+					"label": "Latest News",
+					"path": "/news",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d0"
+					}
+				},
+				{
+					"label": "Join Us",
+					"path": "/joinus",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d1"
+					}
+				},
+				{
+					"label": "Contact",
+					"path": "/contact",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d2"
+					}
+				}
+			],
+			"contact": {
+				"address": "",
+				"phone": "",
+				"email": ""
+			},
+			"social": {
+				"facebook": "",
+				"twitter": "",
+				"instagram": "",
+				"youtube": "",
+				"telegram": "",
+				"linkedin": "",
+				"whatsapp": "",
+				"website": ""
+			},
+			"_id": {
+				"$oid": "69d3e2dbe71f183abbce88ce"
+			}
+		},
+		{
+			"id": "resources",
+			"title": "Resources",
+			"type": "links",
+			"content": "",
+			"links": [
+				{
+					"label": "Posters",
+					"path": "/posters",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d4"
+					}
+				},
+				{
+					"label": "ID Card",
+					"path": "/idcard",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d5"
+					}
+				},
+				{
+					"label": "Daily Tasks",
+					"path": "/daily-work",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d6"
+					}
+				},
+				{
+					"label": "Events",
+					"path": "/events",
+					"_id": {
+						"$oid": "69d3e2dbe71f183abbce88d7"
+					}
+				}
+			],
+			"contact": {
+				"address": "",
+				"phone": "",
+				"email": ""
+			},
+			"social": {
+				"facebook": "",
+				"twitter": "",
+				"instagram": "",
+				"youtube": "",
+				"telegram": "",
+				"linkedin": "",
+				"whatsapp": "",
+				"website": ""
+			},
+			"_id": {
+				"$oid": "69d3e2dbe71f183abbce88d3"
+			}
+		},
+		{
+			"id": "contact_info",
+			"title": "Contact Info",
+			"type": "contact",
+			"content": "",
+			"contact": {
+				"address": "Samajwadi Party HQ\n19, Vikramaditya Marg\nLucknow, Uttar Pradesh",
+				"phone": "",
+				"email": "contact@samajwaditechforce.com"
+			},
+			"social": {
+				"facebook": "",
+				"twitter": "",
+				"instagram": "",
+				"youtube": "",
+				"telegram": "",
+				"linkedin": "",
+				"whatsapp": "",
+				"website": ""
+			},
+			"_id": {
+				"$oid": "69d3e2dbe71f183abbce88d8"
+			},
+			"links": []
+		},
+		{
+			"id": "social_media",
+			"title": "Follow Us",
+			"type": "social",
+			"content": "",
+			"contact": {
+				"address": "",
+				"phone": "",
+				"email": ""
+			},
+			"social": {
+				"facebook": "https://facebook.com/samajwadiparty",
+				"twitter": "https://twitter.com/samajwadiparty",
+				"instagram": "https://instagram.com/samajwadiparty",
+				"youtube": "https://youtube.com/samajwadiparty",
+				"telegram": "",
+				"linkedin": "",
+				"whatsapp": "",
+				"website": ""
+			},
+			"_id": {
+				"$oid": "69d3e2dbe71f183abbce88d9"
+			},
+			"links": []
+		}
+	],
+	"copyright": "© 2024 Samajwadi Party. All rights reserved.",
+	"isActive": true,
+	"createdAt": {
+		"$date": "2026-04-06T16:44:11.627Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-06T16:44:11.627Z"
+	},
+	"__v": 0
+}]
+

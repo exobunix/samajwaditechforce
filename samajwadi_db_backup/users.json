@@ -1,0 +1,437 @@
+[{
+	"_id": {
+		"$oid": "69d3e359e71f183abbce891e"
+	},
+	"name": "Shahnavaj Ahmad",
+	"email": "shahnavajahmad923@gmail.com",
+	"phone": "G-1775493977645-2823",
+	"password": "$2b$10$2olGADLy9r0jajaTMDJJC.0qNv0n.v0Vx30Mv5p16lVdcIo0G9kI2",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocL0pbJ48SP9BZBvwQe_N8d3h9fNlaZBejciR7Jq5LB32zXghg=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "114249659691194959337",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-06T16:46:17.647Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-06T16:46:17.647Z"
+	},
+	"referralCode": "SPCE891ECU",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69d507e6e71f183abbce8a34"
+	},
+	"name": "Karamchand Yadav",
+	"email": "kcyadav567890@gmail.com",
+	"phone": "G-1775568870321-2966",
+	"password": "$2b$10$ky0FRzB5Cvk6QsaeAq4ZgeARVBlzjID.8s0NSURw9erd7PT/hTRvO",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJhwX6eeK8YuQAIFxjgKxYhpnN3LxQJzyN8XLlGi2BW1o5_Hw=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "114198840989178939779",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-07T13:34:30.324Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-27T17:01:10.231Z"
+	},
+	"referralCode": "SPCE8A34FD",
+	"__v": 0,
+	"resetPasswordExpire": {
+		"$date": "2026-04-27T17:11:10.044Z"
+	},
+	"resetPasswordToken": "b66931f69e343309b0e48b1a4100a73c22819b1190aa9d9ef4246087e1dc5cad"
+},
+{
+	"_id": {
+		"$oid": "69d50e1be71f183abbce8ad6"
+	},
+	"name": "Advocate High court",
+	"email": "highcourtadvocate010@gmail.com",
+	"phone": "G-1775570459737-7402",
+	"password": "$2b$10$VkRjpp9JsUC9ufjiyx7apeAn6jt8jjrfqme1Qddn0wJkzujnBqXWu",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLkIU-1wGYPUR2hBP1cdz-W4WTZWEQi862sjN7uz0rXf3MANw=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "114606762224856897349",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-07T14:00:59.739Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-07T14:00:59.739Z"
+	},
+	"referralCode": "SPCE8AD6J5",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69d71728e71f183abbce8ba8"
+	},
+	"name": "Shudhesh Yadav",
+	"email": "shudheshyadav19@gmail.com",
+	"phone": "G-1775703848866-9870",
+	"password": "$2b$10$UcIzfC2vMIJ5vALqpDXwy.VYub0GZhmKr8tI6eqDXYlS7pnVYTFI2",
+	"profileImage": null,
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "106576027308030219333",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-09T03:04:08.869Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-25T05:12:52.627Z"
+	},
+	"referralCode": "SPCE8BA8M3",
+	"__v": 0,
+	"dob": "",
+	"gender": ""
+},
+{
+	"_id": {
+		"$oid": "69d76e2ce71f183abbce8c44"
+	},
+	"name": "Mahendra Singh yadav Yadav",
+	"email": "yadavmahendrasinghyadav0@gmail.com",
+	"phone": "G-1775726124009-3193",
+	"password": "$2b$10$4055y32xyI4.jAed5laI1eHUoG5M0bBRDwE3uzwE5yBKMOfQ27Z.G",
+	"profileImage": null,
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "110847123682699254996",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-09T09:15:24.013Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-09T09:15:24.013Z"
+	},
+	"referralCode": "SPCE8C44HG",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69d93842aa6e9a8e17be93de"
+	},
+	"name": "Abu Salim",
+	"email": "sabu92567@gmail.com",
+	"phone": "+917398013734",
+	"password": "$2b$10$Ak5N/ibi9hs1OynfEHPFROdS0531R935zL770oWU1p30Aqr07nxOu",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocIaVuxQfgTV43g-l9CqYa9CyrTISOxUlFpZ584BmIDvmGgvqQ=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "103666688305429914783",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-10T17:49:54.178Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-10T17:51:26.014Z"
+	},
+	"referralCode": "SPBE93DE4R",
+	"__v": 0,
+	"address": {
+		"street": "Manjhanpur ",
+		"city": "Bahadurpur",
+		"state": "Uttar Pradesh",
+		"postalCode": "212206",
+		"country": "India"
+	},
+	"dob": "01/01/1992",
+	"gender": "Male",
+	"location": {
+		"lat": 25.46867454422745,
+		"lng": 81.36245012283327
+	}
+},
+{
+	"_id": {
+		"$oid": "69d9964eaa6e9a8e17be94c0"
+	},
+	"name": "Sandeep Yadav",
+	"email": "sabdeepyadav41@gmail.com",
+	"phone": "G-1775867470694-8838",
+	"password": "$2b$10$cEz0PwazAl59RWtyAO.Q2OrsuQXNsQHvBpF3xW1q0iDXvQyTlJhre",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLayEqAXiF1MPdNhzG8B51eZmXauMFBavBL5dss9CQOZuPW78Aybw=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "116912062090602820345",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-11T00:31:10.7Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-11T00:31:10.7Z"
+	},
+	"referralCode": "SPBE94C0N9",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69da846caa6e9a8e17be9587"
+	},
+	"name": "Saurabh Yadav",
+	"email": "saurabhyadav1242004@gmail.com",
+	"phone": "G-1775928428870-1823",
+	"password": "$2b$10$tZl0fPBlkvpauBxQSneFEe/AGjJphBcKWve0F0P5XSElxgbdneRHG",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocKd4S2MrMsar44lZEgKX17MQQsbTF7SfUViFbtIyYD4oUEEh_J2=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "106814003581687986956",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-11T17:27:08.877Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-11T17:27:08.877Z"
+	},
+	"referralCode": "SPBE9587K7",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69dda86a9e99b31e36bcf35e"
+	},
+	"name": "Nirmal Singh",
+	"email": "ynirmalsingh123@gmail.com",
+	"phone": "9936294948",
+	"password": "$2b$10$ewzclnLnGAI.4XSmHRrIcuE7FWYOXS2Z9uaQV.GlR9gSMEI2WcE.i",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocIeQda1KR9Z74K9BGacPEMWOrjMd3C73E1BDMtS4nlraJftbw=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "116800477241970138121",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-14T02:37:30.542Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-16T17:49:15.769Z"
+	},
+	"referralCode": "SPBCF35E84",
+	"__v": 0,
+	"dob": "29/08/76",
+	"gender": ""
+},
+{
+	"_id": {
+		"$oid": "69ddc4259e99b31e36bcf3c8"
+	},
+	"name": "Nitin Dixit",
+	"email": "nitindixit996rediff@gmail.com",
+	"phone": "G-1776141349746-5055",
+	"password": "$2b$10$JssvqtUEeLmz4LF4Mw120.t3EY5EkguMh3UopbfkpAcZqMmHr53Ae",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJTo1GPqer7yy6G3ySuFUjBN1BcNFy316J-10n7am2qmRx5NwM8zQ=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "113335464587593001332",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-14T04:35:49.749Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-14T04:35:49.749Z"
+	},
+	"referralCode": "SPBCF3C8DP",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69ddcd729e99b31e36bcf4a7"
+	},
+	"name": "shivam khanna",
+	"email": "shivamkhan164@gmail.com",
+	"phone": "8090059955",
+	"password": "$2b$10$qF7mhqkJSNdBjBMEZumOwevHa7GLqFvoURkxVzyY.vMq00AjhRTCS",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocIx4QOH4Dzkozw-DMOP_4d_Sa1h6F1s0Wm-G6xmPofTJqCoK5Ar=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "107903968034248193639",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-14T05:15:30.133Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-14T05:20:39.932Z"
+	},
+	"referralCode": "SPBCF4A7P1",
+	"__v": 0,
+	"resetPasswordExpire": {
+		"$date": "2026-04-14T05:28:20.233Z"
+	},
+	"resetPasswordToken": "e5fca87dcf3aa06f808a76e57487b76801bd7fc3e9c8b20745b564ec719341b9",
+	"dob": "12/08/98",
+	"gender": "Male "
+},
+{
+	"_id": {
+		"$oid": "69e072089e99b31e36bcf5ed"
+	},
+	"name": "ATUL YADAV SP",
+	"email": "atuly905@gmail.com",
+	"phone": "G-1776316936740-2042",
+	"password": "$2b$10$9G335x.5rbKjC.zH.PXk1e6kRz.rOpp2Txf5Kc7pjeLWObiXdwEhG",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocIQ3CIG3s0qnHqC6L0a6BjSbIWcJSpnlKG2vh-rqXUpN8_8KR3y=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "102292536525745211289",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-16T05:22:16.939Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-16T05:23:24.343Z"
+	},
+	"referralCode": "SPBCF5ED78",
+	"__v": 0,
+	"resetPasswordExpire": {
+		"$date": "2026-04-16T05:33:24.238Z"
+	},
+	"resetPasswordToken": "dc7896cf98bcecedf9c4a28de6813783b2ba9a818fcd8a0ef317366d2fd99c72"
+},
+{
+	"_id": {
+		"$oid": "69e44e209e99b31e36bcf7a7"
+	},
+	"name": "SACHIN YADAV",
+	"email": "mrsachinyadavtiger@gmail.com",
+	"phone": "G-1776569888238-3479",
+	"password": "$2b$10$Hmxl0BnP4Gqw0qmiTEk6k.bbcomNW.khgAdoINX1nAKJaLtdrXOeO",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLAd-wETWHNXTtC99zJhDyPKTB8rLoUAEFtg_s55u-ZyX0hIV81=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "107360296783283850453",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-19T03:38:08.435Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-19T03:38:08.435Z"
+	},
+	"referralCode": "SPBCF7A708",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69e656129e99b31e36bcf853"
+	},
+	"name": "Pushpendra Singh",
+	"email": "psyadav9695@gmail.com",
+	"phone": "G-1776702994330-1923",
+	"password": "$2b$10$Su5N2IUCK2h/IZU2grWfcOZxb85mhzfl3HU7Erz8a5y3iFHumNwFC",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocKoqY1HzlvTXVd_IHqPRkIVP4nYcHMXJHfNHjZOzxXCpI1zpw=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "117417306502566917285",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-20T16:36:34.334Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-20T16:36:34.334Z"
+	},
+	"referralCode": "SPBCF853ON",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "69f0cf32ee6dac844a0f8f1f"
+	},
+	"name": "Hadi Sultan",
+	"email": "hadisultan0786@gmail.com",
+	"phone": "G-1777389362294-9842",
+	"password": "$2b$10$eiGnA8FsTR9HGq5KIppLJunDBuyd5ffx.pMLldeHZInopxFcWQ0IO",
+	"profileImage": "https://lh3.googleusercontent.com/a/ACg8ocKSuYZiRgpegRtleMRULK-VHLNzJ5RJ8Tj0dE2Ic23WBum-KA=s96-c",
+	"role": "member",
+	"socialMedia": [],
+	"electionPreparation": "",
+	"verificationStatus": "Not Applied",
+	"adminVerification": true,
+	"isGoogleUser": true,
+	"googleId": "102411709473355202240",
+	"language": "en",
+	"points": 0,
+	"createdAt": {
+		"$date": "2026-04-28T15:16:03.696Z"
+	},
+	"updatedAt": {
+		"$date": "2026-04-28T15:16:03.696Z"
+	},
+	"referralCode": "SP0F8F1FIY",
+	"__v": 0
+}]
+
