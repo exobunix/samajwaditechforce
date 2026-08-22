@@ -33,7 +33,7 @@ export const getApiUrl = () => {
     }
 
     // 3. Absolute Production Default
-    return 'https://api.samajwaditechforce.com/api';
+    return 'https://samajwaditechforce.onrender.com/api';
 };
 
 export const getBaseUrl = () => {
