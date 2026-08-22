@@ -15,7 +15,7 @@
       "destination": "/favicon.ico"
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
