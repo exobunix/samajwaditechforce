@@ -5,7 +5,7 @@ import { getApiUrl } from '../utils/api';
 
 export const WhatsAppButton = () => {
     // Default to the requested number if API fails or is not set
-    const [whatsappUrl, setWhatsappUrl] = useState<string | null>('https://wa.me/919621762121');
+    const [whatsappUrl, setWhatsappUrl] = useState<string | null>('https://wa.me/919967853364');
 
     useEffect(() => {
         fetchWhatsAppLink();
