@@ -7,8 +7,8 @@ const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 const { Resend } = require('resend');
 
-// Initialize Resend with API Key
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend with API Key (using a dummy fallback to prevent server crash on startup if not configured)
+const resend = new Resend(process.env.RESEND_API_KEY || 're_dummykey_for_startup_12345');
 
 // Helper to handle referral points for the REFERRER
 const handleReferral = async (newUser, referralCode) => {
