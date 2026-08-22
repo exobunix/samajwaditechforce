@@ -1,0 +1,37 @@
+# Render Blueprint Specification File (render.yaml)
+# Use this to deploy the entire Samajwadi Tech Force backend services in one click on Render.com.
+
+services:
+  # 1. Node.js Express API Backend
+  - type: web
+    name: samajwadi-techforce-api
+    runtime: node
+    rootDir: api
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 5001
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: IMAGEKIT_PUBLIC_KEY
+        sync: false
+      - key: IMAGEKIT_PRIVATE_KEY
+        sync: false
+      - key: IMAGEKIT_URL_ENDPOINT
+        sync: false
+
+  # 2. Python Flask Background Removal Service
+  - type: web
+    name: samajwadi-techforce-bg-removal
+    runtime: docker
+    dockerfilePath: Dockerfile.bg-service
+    envVars:
+      - key: PORT
+        value: 5002
