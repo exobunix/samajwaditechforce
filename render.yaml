@@ -15,17 +15,17 @@ services:
       - key: NODE_ENV
         value: production
       - key: MONGO_URI
-        sync: false
+        value: mongodb://adarshsachan7071_db_user:uFlWpq6NY7MHJTm9@ac-lqvblgl-shard-00-00.ksxxelf.mongodb.net:27017,ac-lqvblgl-shard-00-01.ksxxelf.mongodb.net:27017,ac-lqvblgl-shard-00-02.ksxxelf.mongodb.net:27017/test?ssl=true&replicaSet=atlas-de1ek8-shard-0&authSource=admin&retryWrites=true&w=majority
       - key: JWT_SECRET
-        sync: false
+        value: samajwaditechforce_secret_key_123
       - key: RESEND_API_KEY
-        sync: false
+        value: re_dummykey12345
       - key: IMAGEKIT_PUBLIC_KEY
-        sync: false
+        value: public_BEIY/mfZ/cGwCuJpaYzOJ9UIapM=
       - key: IMAGEKIT_PRIVATE_KEY
-        sync: false
+        value: private_3m79CXKzWsW2hXu/jnRvcohOAHQ=
       - key: IMAGEKIT_URL_ENDPOINT
-        sync: false
+        value: https://ik.imagekit.io/v8swalwfs
 
   # 2. Python Flask Background Removal Service
   - type: web
