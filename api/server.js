@@ -83,14 +83,20 @@ const allowedOrigins = [
     'http://localhost:19006',
     'https://admin.samajwaditechforce.com',
     'https://samajwaditechforce.com',
-    'https://www.samajwaditechforce.com'
+    'https://www.samajwaditechforce.com',
+    'https://samajwaditechforce-three.vercel.app',
+    'https://samajwaditechforce-byq5.vercel.app'
 ];
 
 const corsOptions = {
     origin: function (origin, callback) {
         // Allow requests with no origin (like mobile apps or curl)
         if (!origin) return callback(null, true);
-        if (allowedOrigins.indexOf(origin) !== -1 || process.env.NODE_ENV === 'development') {
+        
+        // Dynamically allow all Vercel deployments/previews
+        const isVercel = origin.endsWith('.vercel.app');
+        
+        if (allowedOrigins.indexOf(origin) !== -1 || isVercel || process.env.NODE_ENV === 'development') {
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
