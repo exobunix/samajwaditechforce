@@ -12,6 +12,12 @@ export const getApiUrl = (): string => {
     if (process.env.EXPO_PUBLIC_API_URL) {
         let baseUrl = process.env.EXPO_PUBLIC_API_URL;
         if (!baseUrl.endsWith('/api')) baseUrl += '/api';
+
+        // Force HTTPS in production to prevent Mixed Content blocking
+        if (!__DEV__ && baseUrl.startsWith('http://') && !baseUrl.includes('localhost')) {
+            baseUrl = baseUrl.replace('http://', 'https://');
+        }
+
         return baseUrl;
     }
 

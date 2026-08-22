@@ -21,6 +21,11 @@ export const getApiUrl = () => {
             url = url.replace('localhost', '10.0.2.2');
         }
 
+        // Force HTTPS in production web/non-dev builds to prevent Mixed Content blocking
+        if (!__DEV__ && url.startsWith('http://') && !url.includes('localhost') && !url.includes('10.0.2.2')) {
+            url = url.replace('http://', 'https://');
+        }
+
         return url;
     }
 
