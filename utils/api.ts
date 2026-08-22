@@ -5,6 +5,12 @@ export const getApiUrl = () => {
     if (process.env.EXPO_PUBLIC_API_URL) {
         let url = process.env.EXPO_PUBLIC_API_URL;
 
+        // Auto-deduplicate URL if it was accidentally copied/pasted twice (e.g. urlurl)
+        const protocolIndex = url.indexOf('http', 4);
+        if (protocolIndex !== -1) {
+            url = url.substring(protocolIndex);
+        }
+
         // Ensure we don't duplicate /api
         if (!url.endsWith('/api') && !url.endsWith('/api/')) {
             url = url.replace(/\/$/, '') + '/api';

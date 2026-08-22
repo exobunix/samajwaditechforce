@@ -11,6 +11,13 @@ export const getApiUrl = (): string => {
     // 1. If explicitly set in env, use it
     if (process.env.EXPO_PUBLIC_API_URL) {
         let baseUrl = process.env.EXPO_PUBLIC_API_URL;
+
+        // Auto-deduplicate URL if it was accidentally copied/pasted twice (e.g. urlurl)
+        const protocolIndex = baseUrl.indexOf('http', 4);
+        if (protocolIndex !== -1) {
+            baseUrl = baseUrl.substring(protocolIndex);
+        }
+
         if (!baseUrl.endsWith('/api')) baseUrl += '/api';
 
         // Force HTTPS in production to prevent Mixed Content blocking
