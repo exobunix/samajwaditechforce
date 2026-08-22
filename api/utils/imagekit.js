@@ -2,9 +2,9 @@ const ImageKit = require('imagekit');
 const crypto = require('crypto');
 
 const imagekit = new ImageKit({
-    publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
-    privateKey: process.env.IMAGEKIT_PRIVATE_KEY,
-    urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT
+    publicKey: process.env.IMAGEKIT_PUBLIC_KEY || 'public_dummy_key_123',
+    privateKey: process.env.IMAGEKIT_PRIVATE_KEY || 'private_dummy_key_123',
+    urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT || 'https://ik.imagekit.io/dummy_endpoint_123'
 });
 
 /**
