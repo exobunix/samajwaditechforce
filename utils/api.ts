@@ -44,7 +44,7 @@ export const getApiUrl = () => {
     }
 
     // 3. Absolute Production Default
-    return 'https://samajwaditechforce.onrender.com/api';
+    return 'https://samajwaditechforce-three.vercel.app/api';
 };
 
 export const getBaseUrl = () => {

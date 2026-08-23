@@ -30,7 +30,7 @@ export const getApiUrl = (): string => {
 
     // 2. In Production (Builds), default to hosted URL
     if (!__DEV__) {
-        return 'https://samajwaditechforce.onrender.com/api';
+        return 'https://samajwaditechforce-three.vercel.app/api';
     }
 
     // 3. Development Fallback

@@ -775,14 +775,16 @@ const styles = StyleSheet.create({
     },
     heroContainer: {
         flexDirection: 'row',
+        flexWrap: 'wrap',
         alignItems: 'center',
-        gap: 60,
+        gap: 40,
         width: '100%',
         maxWidth: 1600,
     },
     heroLeft: {
         flex: 1,
-        paddingRight: 40,
+        minWidth: 320,
+        paddingRight: 20,
     },
     heroBadge: {
         flexDirection: 'row',
@@ -913,6 +915,7 @@ const styles = StyleSheet.create({
     },
     heroRight: {
         flex: 1,
+        minWidth: 320,
         position: 'relative',
         alignItems: 'center',
     },
@@ -922,8 +925,9 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     heroMainImage: {
-        width: 800,
-        height: 500,
+        width: '100%',
+        height: undefined,
+        aspectRatio: 1.6,
         borderRadius: 20,
     },
     heroFloatingCard: {
