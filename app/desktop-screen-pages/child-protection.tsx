@@ -9,6 +9,15 @@ const SP_GREEN = '#009933';
 
 export default function DesktopChildProtection() {
     const router = useRouter();
+
+    // Redirect mobile users to mobile layouts
+    React.useEffect(() => {
+        const { width } = Dimensions.get('window');
+        if (width < 768) {
+            router.replace('/(tabs)/child-protection');
+        }
+    }, []);
+
     const [formData, setFormData] = useState({
         reporterName: '',
         reporterContact: '',

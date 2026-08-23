@@ -23,6 +23,14 @@ export default function DesktopPosters() {
 
     const [showVerifyModal, setShowVerifyModal] = useState(false);
 
+    // Redirect mobile users to mobile layouts
+    useEffect(() => {
+        const { width } = Dimensions.get('window');
+        if (width < 768) {
+            router.replace('/(tabs)/posters');
+        }
+    }, []);
+
     useEffect(() => {
         fetchPosters();
     }, []);

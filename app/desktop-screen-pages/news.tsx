@@ -54,6 +54,14 @@ export default function DesktopNews() {
     const fadeAnim = useRef(new Animated.Value(0)).current;
     const slideAnim = useRef(new Animated.Value(50)).current;
 
+    // Redirect mobile users to mobile layouts
+    useEffect(() => {
+        const { width } = Dimensions.get('window');
+        if (width < 768) {
+            router.replace('/(tabs)/news');
+        }
+    }, []);
+
     useEffect(() => {
         loadUserInfo();
     }, []);

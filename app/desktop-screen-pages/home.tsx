@@ -18,6 +18,15 @@ import { TranslatedText } from '../../components/TranslatedText';
 
 export default function DesktopHome() {
     const router = useRouter();
+    
+    // Redirect mobile users to mobile layouts
+    useEffect(() => {
+        const { width } = Dimensions.get('window');
+        if (width < 768) {
+            router.replace('/(tabs)');
+        }
+    }, []);
+
     const [news, setNews] = useState<any[]>([]);
     const [programs, setPrograms] = useState<any[]>([]);
     const [posters, setPosters] = useState<any[]>([]);

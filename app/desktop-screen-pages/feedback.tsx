@@ -10,6 +10,15 @@ const SP_GREEN = '#009933';
 
 export default function DesktopFeedback() {
     const router = useRouter();
+
+    // Redirect mobile users to mobile layouts
+    React.useEffect(() => {
+        const { width } = Dimensions.get('window');
+        if (width < 768) {
+            router.replace('/(tabs)/feedback');
+        }
+    }, []);
+
     const [formData, setFormData] = useState({
         name: '',
         mohalla: '',
